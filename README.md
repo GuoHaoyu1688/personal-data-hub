@@ -2,7 +2,7 @@
 
 A local SQLite workspace for personal records: import spreadsheets, CSV, JSON and PDF tables; browse and edit them in a local Web interface; share a consistent, audited data model with CLI, REST and MCP clients. Sensitive fields are masked by default.
 
-**Python 3.11+ · version 0.1.0 · MIT · no cloud services or accounts**
+**Python 3.11+ · version 0.1.1 · MIT · no cloud services or accounts**
 
 ## Install
 

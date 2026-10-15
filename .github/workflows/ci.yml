@@ -14,4 +14,4 @@ jobs:
       - run: python -m pip install -e '.[dev]'
       - run: ruff check .
       - run: ruff format --check .
-      - run: pytest -q --cov=sqlite_memory_mcp --cov-report=term-missing
+      - run: pytest -q --cov=personal_data_hub --cov-report=term-missing

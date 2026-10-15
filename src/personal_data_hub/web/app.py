@@ -22,7 +22,7 @@ def envelope(data: Any) -> dict[str, Any]:
 
 
 def create_app(hub: Hub, token: str | None = None) -> FastAPI:
-    app = FastAPI(title="Personal Data Hub", version="0.1.0", docs_url=None, redoc_url=None)
+    app = FastAPI(title="Personal Data Hub", version="0.1.1", docs_url=None, redoc_url=None)
     app.add_middleware(TrustedHostMiddleware, allowed_hosts=["127.0.0.1", "localhost", "[::1]"])
     bearer = HTTPBearer(auto_error=False)
     static = Path(__file__).parent / "static"

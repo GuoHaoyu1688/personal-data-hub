@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-10-15
+
+- Correct CI coverage to measure personal_data_hub. Runtime functionality is unchanged.
+
 ## 0.1.0 — 2026-10-15
 
 - Nine YAML-defined record tables with add-only schema migration and configurable unique keys.

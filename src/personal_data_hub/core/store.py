@@ -679,7 +679,7 @@ class Hub:
                     "manifest.json",
                     json.dumps(
                         {
-                            "version": "0.1.0",
+                            "version": "0.1.1",
                             "created_at": now(),
                             "timezone": self.timezone,
                             "contains_unmasked_private_data": True,

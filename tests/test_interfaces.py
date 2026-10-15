@@ -96,7 +96,7 @@ def test_cli_errors(capsys, tmp_path, args, status):
 
 def test_cli_globals_help_config(capsys, tmp_path, monkeypatch):
     assert main(["--version"]) == 0
-    assert capsys.readouterr().out.strip() == "0.1.0"
+    assert capsys.readouterr().out.strip() == "0.1.1"
     assert main(["--help"]) == 0
     assert "Global:" in capsys.readouterr().out
     monkeypatch.setenv("HUB_DATA_DIR", str(tmp_path / "env"))
