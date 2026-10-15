@@ -1,0 +1,15 @@
+table: reading_list
+label: Reading List
+unique: [title]
+columns:
+  title:
+    type: text
+    required: true
+  status:
+    type: text
+    default: planned
+  finished_on:
+    type: date
+  private_note:
+    type: text
+    sensitive: true

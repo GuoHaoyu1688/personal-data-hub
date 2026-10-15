@@ -1,0 +1,4 @@
+[hub]
+data_dir = "./data/example"
+timezone = "Asia/Shanghai"
+actor = "agent:example"
